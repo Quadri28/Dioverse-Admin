@@ -1,0 +1,23 @@
+.form-wrapper{
+position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+margin-bottom: 3rem;
+}
+.form-wrapper input{
+    border-radius: 10px;
+}
+.form-wrapper input{
+    border: none;
+    outline: none;
+    background-color: #dfdfdd;
+  
+  }
+  .form-wrapper label{
+    font-size: 14px;
+    font-weight: 500;
+  }
+  .input-container{
+   display: grid;
+  }

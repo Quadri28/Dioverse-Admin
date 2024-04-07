@@ -1,0 +1,10 @@
+@media screen and (max-width:600px) {
+    .hide-sidebar{
+        display: none !important;
+    }
+    .show-sidebar{
+        position: absolute;
+        height: calc(100vh - 200px);
+        background-color: #0452C8;
+}
+}

@@ -1,0 +1,34 @@
+
+.suspended-status, .active-status{
+    border-radius: 20px;
+    color: #333;
+    font-size: 12px;
+    display: flex;
+    gap: 3px;
+    /* margin: 0 auto; */
+    align-items: center;
+    height: 2rem;
+    justify-content: center;
+    padding-inline: 5px ;
+}
+.suspended-status{
+    background-color: #F6DADA;
+}
+
+.suspended-status hr{
+    width: 8px;
+    height: 8px;
+    background-color: #DC2626;
+    border-radius: 50%;
+}
+
+.active-status{
+    background-color: #D8EDE0;
+}
+.active-status hr{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #16A34A;
+    content: '';
+}
